@@ -1,0 +1,15 @@
+.cover{
+  position: absolute;
+  width: 519px;
+  height: auto;
+  left: 17px;
+  top: 17px;
+}
+
+.cover_two{
+  position: absolute;
+  width: 329px;
+  height: 352px;
+  left: 1063px;
+  top: 636px;
+}
