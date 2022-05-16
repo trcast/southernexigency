@@ -1,15 +1,35 @@
-.cover{
-  position: absolute;
-  width: 519px;
-  height: auto;
-  left: 17px;
-  top: 17px;
+body{
+  background-color: white;
 }
 
-.cover_two{
+.title_image{
   position: absolute;
-  width: 329px;
-  height: 352px;
-  left: 1063px;
-  top: 636px;
+  width: 99%;
+  height: auto;
+  z-index: 1;
+}
+
+.title_scroll{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+  margin-top: 13%;
+}
+
+.lines_one{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 0;
+  margin-top: 14%;
+}
+
+.brain{
+  position: absolute;
+  width: 90%;
+  height: auto;
+  z-index: 50;
+  margin-top: 125.5%;
+  margin-left: 6%;
 }
