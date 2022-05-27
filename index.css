@@ -70,3 +70,191 @@ body{
   margin-top: 269%;
   margin-left: 59%;
 }
+
+.casey_gif{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 5;
+  margin-top: 314%;
+  margin-left: 0%;
+}
+
+.casey_name{
+  position: absolute;
+  width: 25%;
+  height: auto;
+  z-index: 6;
+  margin-top: 319%;
+  margin-left: 13%;
+}
+
+.cosmo_gif{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 5;
+  margin-top: 364%;
+  margin-left: 0%;
+}
+
+.cosmo_name{
+  position: absolute;
+  width: 20%;
+  height: auto;
+  z-index: 6;
+  margin-top: 369%;
+  margin-left: 63%;
+}
+
+.jeremy_gif{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 5;
+  margin-top: 414%;
+  margin-left: 0%;
+}
+
+.jeremy_name{
+  position: absolute;
+  width: 20%;
+  height: auto;
+  z-index: 6;
+  margin-top: 419%;
+  margin-left: 17%;
+}
+
+.jiha_gif{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 5;
+  margin-top: 464%;
+  margin-left: 0%;
+}
+
+.jiha_name{
+  position: absolute;
+  width: 16%;
+  height: auto;
+  z-index: 6;
+  margin-top: 469%;
+  margin-left: 63%;
+}
+
+.kelly_gif{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 5;
+  margin-top: 514%;
+  margin-left: 0%;
+}
+
+.kelly_name{
+  position: absolute;
+  width: 28%;
+  height: auto;
+  z-index: 6;
+  margin-top: 519%;
+  margin-left: 12%;
+}
+
+.nydia_gif{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 5;
+  margin-top: 564%;
+  margin-left: 0%;
+}
+
+.nydia_name{
+  position: absolute;
+  width: 17%;
+  height: auto;
+  z-index: 6;
+  margin-top: 569%;
+  margin-left: 65%;
+}
+
+.sonya_gif{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 5;
+  margin-top: 614%;
+  margin-left: 0%;
+}
+
+.sonya_name{
+  position: absolute;
+  width: 25%;
+  height: auto;
+  z-index: 6;
+  margin-top: 619%;
+  margin-left: 13%;
+}
+
+.tim_gif{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 5;
+  margin-top: 664%;
+  margin-left: 0%;
+}
+
+.tim_name{
+  position: absolute;
+  width: 16%;
+  height: auto;
+  z-index: 6;
+  margin-top: 669%;
+  margin-left: 66%;
+}
+
+.adam_name:hover{
+  transform: scale(1.1);
+}
+
+.ben_name:hover{
+  transform: scale(1.1);
+}
+
+.casey_name:hover{
+  transform: scale(1.1);
+}
+
+.casey_name:hover{
+  transform: scale(1.1);
+}
+
+.cosmo_name:hover{
+  transform: scale(1.1);
+}
+
+.jeremy_name:hover{
+  transform: scale(1.1);
+}
+
+.jiha_name:hover{
+  transform: scale(1.1);
+}
+
+.kelly_name:hover{
+  transform: scale(1.1);
+}
+
+.nydia_name:hover{
+  transform: scale(1.1);
+}
+
+.sonya_name:hover{
+  transform: scale(1.1);
+}
+
+.tim_name:hover{
+  transform: scale(1.1);
+}
