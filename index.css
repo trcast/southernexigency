@@ -257,6 +257,7 @@ body{
 
 .tim_name:hover{
   transform: scale(1.1);
+  opacity: 50%;
 }
 
 .moth{
@@ -273,7 +274,7 @@ body{
   width: 100%;
   height: auto;
   z-index: 0;
-  margin-top: 760%;
+  margin-top: 758%;
 }
 
 .curator_bg{
@@ -286,11 +287,30 @@ body{
 
 .cate{
   position: absolute;
-  width: 25%;
+  width: 24%;
   height: auto;
-  z-index: 2;
+  z-index: 1;
   margin-top: 781.5%;
   margin-left: 10%;
+  opacity: 100%;
+}
+
+.cate:hover{
+  opacity: 0%;
+}
+
+.cate_gif{
+  position: absolute;
+  width: 24%;
+  height: auto;
+  z-index: 2;
+  margin-top: 780%;
+  margin-left: 10%;
+  opacity: 0%;
+}
+
+.cate_gif:hover{
+  opacity: 100%;
 }
 
 .cate_tour{
@@ -304,7 +324,7 @@ body{
 
 .julia{
   position: absolute;
-  width: 17%;
+  width: 16%;
   height: auto;
   z-index: 2;
   margin-top: 803.5%;
@@ -318,4 +338,49 @@ body{
   z-index: 3;
   margin-top: 819.8%;
   margin-left: 77.03%;
+}
+
+.kayleigh{
+  position: absolute;
+  width: 32%;
+  height: auto;
+  z-index: 2;
+  margin-top: 825%;
+  margin-left: 10%;
+}
+
+.kayleigh_tour{
+  position: absolute;
+  width: 15%;
+  height: auto;
+  z-index: 3;
+  margin-top: 841.5%;
+  margin-left: 6.9%;
+}
+
+.sakina{
+  position: absolute;
+  width: 23%;
+  height: auto;
+  z-index: 2;
+  margin-top: 846.5%;
+  margin-left: 46%;
+}
+
+.sakina_tour{
+  position: absolute;
+  width: 15%;
+  height: auto;
+  z-index: 3;
+  margin-top: 863%;
+  margin-left: 76.54%;
+}
+
+.essays_one{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 3;
+  margin-top: 905%;
+  margin-left: 0%;
 }
