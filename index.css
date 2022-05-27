@@ -258,3 +258,64 @@ body{
 .tim_name:hover{
   transform: scale(1.1);
 }
+
+.moth{
+  position: absolute;
+  width: 90%;
+  height: auto;
+  z-index: 7;
+  margin-top: 712.5%;
+  margin-left: 9.25%;
+}
+
+.lines_two{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 0;
+  margin-top: 760%;
+}
+
+.curator_bg{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  margin-top: 768%;
+}
+
+.cate{
+  position: absolute;
+  width: 25%;
+  height: auto;
+  z-index: 2;
+  margin-top: 781.5%;
+  margin-left: 10%;
+}
+
+.cate_tour{
+  position: absolute;
+  width: 15%;
+  height: auto;
+  z-index: 3;
+  margin-top: 798%;
+  margin-left: 6.9%;
+}
+
+.julia{
+  position: absolute;
+  width: 17%;
+  height: auto;
+  z-index: 2;
+  margin-top: 803.5%;
+  margin-left: 46.5%;
+}
+
+.julia_tour{
+  position: absolute;
+  width: 15%;
+  height: auto;
+  z-index: 3;
+  margin-top: 819.8%;
+  margin-left: 77.03%;
+}
