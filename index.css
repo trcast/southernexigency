@@ -1,5 +1,6 @@
 body{
   background-color: white;
+  cursor: url(a_design/b_customs/cursor_glass.png),auto;
 }
 
 .title_image{
@@ -34,6 +35,8 @@ body{
   margin-top: 125.5%;
   margin-left: 6%;
 }
+
+/* <!--- ARTISTS --------------------------------------> */
 
 .adam_gif{
   position: absolute;
@@ -260,6 +263,8 @@ body{
   opacity: 50%;
 }
 
+/* SCANS--------------------------------- */
+
 .moth{
   position: absolute;
   width: 90%;
@@ -276,6 +281,8 @@ body{
   z-index: 0;
   margin-top: 758%;
 }
+
+/* <!-- CURATORS -------------------------------> */
 
 .curator_bg{
   position: absolute;
@@ -295,22 +302,14 @@ body{
   opacity: 100%;
 }
 
-.cate:hover{
-  opacity: 0%;
-}
-
 .cate_gif{
   position: absolute;
   width: 24%;
   height: auto;
   z-index: 2;
-  margin-top: 780%;
+  margin-top: 781%;
   margin-left: 10%;
   opacity: 0%;
-}
-
-.cate_gif:hover{
-  opacity: 100%;
 }
 
 .cate_tour{
@@ -322,13 +321,31 @@ body{
   margin-left: 6.9%;
 }
 
+.cate:hover{
+  opacity: 0%;
+}
+
+.cate_gif:hover{
+  opacity: 100%;
+}
+
 .julia{
   position: absolute;
   width: 16%;
   height: auto;
   z-index: 2;
-  margin-top: 803.5%;
+  margin-top: 803.3%;
   margin-left: 46.5%;
+}
+
+.julia_gif{
+  position: absolute;
+  width: 16%;
+  height: auto;
+  z-index: 2;
+  margin-top: 803%;
+  margin-left: 46.5%;
+  opacity: 0%;
 }
 
 .julia_tour{
@@ -340,6 +357,14 @@ body{
   margin-left: 77.03%;
 }
 
+.julia:hover{
+  opacity: 0%;
+}
+
+.julia_gif:hover{
+  opacity: 100%;
+}
+
 .kayleigh{
   position: absolute;
   width: 32%;
@@ -349,6 +374,17 @@ body{
   margin-left: 10%;
 }
 
+.kayleigh_gif{
+  position: absolute;
+  width: 32%;
+  height: auto;
+  z-index: 2;
+  margin-top: 824.6%;
+  margin-left: 10%;
+  opacity: 0%;
+}
+
+
 .kayleigh_tour{
   position: absolute;
   width: 15%;
@@ -356,6 +392,14 @@ body{
   z-index: 3;
   margin-top: 841.5%;
   margin-left: 6.9%;
+}
+
+.kayleigh:hover{
+  opacity: 0%;
+}
+
+.kayleigh_gif:hover{
+  opacity: 100%;
 }
 
 .sakina{
@@ -367,6 +411,16 @@ body{
   margin-left: 46%;
 }
 
+.sakina_gif{
+  position: absolute;
+  width: 23%;
+  height: auto;
+  z-index: 2;
+  margin-top: 846%;
+  margin-left: 46%;
+  opacity: 0%;
+}
+
 .sakina_tour{
   position: absolute;
   width: 15%;
@@ -375,6 +429,16 @@ body{
   margin-top: 863%;
   margin-left: 76.54%;
 }
+
+.sakina:hover{
+  opacity: 0%;
+}
+
+.sakina_gif:hover{
+  opacity: 100%;
+}
+
+/* ESSAYS----------------------------------- */
 
 .essays_one{
   position: absolute;
