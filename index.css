@@ -1,6 +1,5 @@
 body{
   background-color: white;
-  cursor: url(a_design/b_customs/cursor_glass.png),auto;
 }
 
 .title_image{
@@ -446,5 +445,34 @@ body{
   height: auto;
   z-index: 3;
   margin-top: 905%;
+  margin-left: 0%;
+}
+
+.essays_two{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 3;
+  margin-top: 1088%;
+  margin-left: 0%;
+}
+
+.snake{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 3;
+  margin-top: 1220%;
+  margin-left: 0%;
+}
+
+<!-- TIMELINE -------------------------------------->
+
+.video_one{
+  display: block;
+  width: 100%;
+  height: auto;
+  z-index: 3;
+  margin-top: 1300%;
   margin-left: 0%;
 }
