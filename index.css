@@ -26,18 +26,366 @@ body{
   margin-top: 14%;
 }
 
-.brain{
+#brain{
   position: absolute;
-  width: 90%;
+  width: 67%;
   height: auto;
-  z-index: 2;
+  z-index: 101;
   margin-top: 125.5%;
   margin-left: 6%;
+  opacity: 100%;
+  transition: all ease-in-out 200ms;
+  -webkit-transition: all ease-in-out 200ms;
 }
+
+#artist{
+  position: absolute;
+  width: 10%;
+  height: auto;
+  z-index: 100;
+  margin-top: 130.5%;
+  margin-left: 78%;
+  transition: all ease-in-out 400ms;
+  -webkit-transition: all ease-in-out 400ms;
+}
+
+#artist_line{
+  position: absolute;
+  width: 30%;
+  height: auto;
+  z-index: 100;
+  margin-top: 133%;
+  margin-left: 58%;
+  transition: all ease-in-out 400ms;
+  -webkit-transition: all ease-in-out 400ms;
+}
+
+
+#artist:hover{
+  opacity: 50%;
+  cursor: pointer;
+}
+
+#curator:hover{
+  opacity: 50%;
+  cursor: pointer;
+}
+
+#writing:hover{
+  opacity: 50%;
+  cursor: pointer;
+}
+
+#seeing:hover{
+  opacity: 50%;
+  cursor: pointer;
+}
+
+#artist_arrow{
+  position: absolute;
+  width: 1%;
+  height: auto;
+  z-index: -10;
+  margin-top: 131%;
+  margin-left: 76%;
+  opacity: 100%;
+  transform: rotate(0deg);
+  transition: all ease-in-out 400ms;
+  -webkit-transition: all ease-in-out 400ms;
+}
+
+#curator{
+  position: absolute;
+  width: 12%;
+  height: auto;
+  z-index: 100;
+  margin-top: 135.5%;
+  margin-left: 76%;
+  transition: all ease-in-out 400ms;
+  -webkit-transition: all ease-in-out 400ms;
+}
+
+#curator_line{
+  position: absolute;
+  width: 30%;
+  height: auto;
+  z-index: 100;
+  margin-top: 138%;
+  margin-left: 58%;
+  transition: all ease-in-out 400ms;
+  -webkit-transition: all ease-in-out 400ms;
+}
+
+#curator_arrow{
+  position: absolute;
+  width: 1%;
+  height: auto;
+  z-index: -10;
+  margin-top: 136%;
+  margin-left: 74%;
+  opacity: 100%;
+  transform: rotate(0deg);
+  transition: all ease-in-out 400ms;
+  -webkit-transition: all ease-in-out 400ms;
+}
+
+#writing{
+  position: absolute;
+  width: 11%;
+  height: auto;
+  z-index: 100;
+  margin-top: 140.5%;
+  margin-left: 77%;
+  transition: all ease-in-out 400ms;
+  -webkit-transition: all ease-in-out 400ms;
+}
+
+#writing_line{
+  position: absolute;
+  width: 30%;
+  height: auto;
+  z-index: 100;
+  margin-top: 143%;
+  margin-left: 58%;
+  transition: all ease-in-out 400ms;
+  -webkit-transition: all ease-in-out 400ms;
+}
+
+
+#writing_arrow{
+  position: absolute;
+  width: 1%;
+  height: auto;
+  z-index: -10;
+  margin-top: 141%;
+  margin-left: 76.5%;
+  opacity: 100%;
+  transform: rotate(0deg);
+  transition: all ease-in-out 400ms;
+  -webkit-transition: all ease-in-out 400ms;
+}
+
+#seeing{
+  position: absolute;
+  width: 10%;
+  height: auto;
+  z-index: 100;
+  margin-top: 145.5%;
+  margin-left: 78%;
+  transition: all ease-in-out 400ms;
+  -webkit-transition: all ease-in-out 400ms;
+}
+
+#seeing_line{
+  position: absolute;
+  width: 30%;
+  height: auto;
+  z-index: 100;
+  margin-top: 148%;
+  margin-left: 58%;
+  transition: all ease-in-out 400ms;
+  -webkit-transition: all ease-in-out 400ms;
+}
+
+#seeing_arrow{
+  position: absolute;
+  width: 1%;
+  height: auto;
+  z-index: -10;
+  margin-top: 146%;
+  margin-left: 77.5%;
+  opacity: 100%;
+  transform: rotate(0deg);
+  transition: all ease-in-out 400ms;
+  -webkit-transition: all ease-in-out 400ms;
+}
+
+/* <!--- ARTIST INDEX --------------------------------------> */
+
+#index_one:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 400ms;
+}
+
+#index_two:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 400ms;
+}
+
+#index_three:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 400ms;
+}
+
+#index_four:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 400ms;
+}
+
+#index_five:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 400ms;
+}
+
+#index_six:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 400ms;
+}
+
+#index_seven:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+-webkit-transition: all ease-in-out 400ms;
+}
+
+#index_eight:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+-webkit-transition: all ease-in-out 400ms;
+}
+
+#index_nine:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+-webkit-transition: all ease-in-out 400ms;
+}
+
+#index_ten:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+-webkit-transition: all ease-in-out 400ms;
+}
+
+#index_one{
+  position: absolute;
+  width: 13%;
+  height: auto;
+  z-index: 1;
+  margin-top: 134%;
+  margin-left: 75%;
+  transition: all ease-in-out 400ms;
+  -webkit-transition: all ease-in-out 400ms;
+  opacity: 0%;
+}
+
+#index_two{
+  position: absolute;
+  width: 13%;
+  height: auto;
+  z-index: 1;
+  margin-top: 136%;
+  margin-left: 75%;
+  opacity: 0%;
+  transition: all ease-in-out 400ms;
+  -webkit-transition: all ease-in-out 400ms;
+}
+
+#index_three{
+  position: absolute;
+  width: 14%;
+  height: auto;
+  z-index: 1;
+  margin-top: 138%;
+  margin-left: 74%;
+  opacity: 0%;
+  transition: all ease-in-out 400ms;
+  -webkit-transition: all ease-in-out 400ms;
+}
+
+#index_four{
+  position: absolute;
+  width: 11%;
+  height: auto;
+  z-index: 1;
+  margin-top: 140%;
+  margin-left: 77%;
+  opacity: 0%;
+  transition: all ease-in-out 400ms;
+  -webkit-transition: all ease-in-out 400ms;
+}
+
+#index_five{
+  position: absolute;
+  width: 10%;
+  height: auto;
+  z-index: 1;
+  margin-top: 142%;
+  margin-left: 78%;
+  opacity: 0%;
+  transition: all ease-in-out 400ms;
+  -webkit-transition: all ease-in-out 400ms;
+}
+
+#index_six{
+  position: absolute;
+  width: 8%;
+  height: auto;
+  z-index: 1;
+  margin-top: 144%;
+  margin-left: 80%;
+  opacity: 0%;
+  transition: all ease-in-out 400ms;
+  -webkit-transition: all ease-in-out 400ms;
+}
+
+#index_seven{
+  position: absolute;
+  width: 16%;
+  height: auto;
+  z-index: 1;
+  margin-top: 146%;
+  margin-left: 72%;
+  opacity: 0%;
+  transition: all ease-in-out 400ms;
+  -webkit-transition: all ease-in-out 400ms;
+}
+
+#index_eight{
+  position: absolute;
+  width: 8%;
+  height: auto;
+  z-index: 1;
+  margin-top: 148%;
+  margin-left: 80%;
+  opacity: 0%;
+  transition: all ease-in-out 400ms;
+  -webkit-transition: all ease-in-out 400ms;
+}
+
+#index_nine{
+  position: absolute;
+  width: 15%;
+  height: auto;
+  z-index: 1;
+  margin-top: 150%;
+  margin-left: 73%;
+  opacity: 0%;
+  transition: all ease-in-out 400ms;
+  -webkit-transition: all ease-in-out 400ms;
+}
+
+#index_ten{
+  position: absolute;
+  width: 7.5%;
+  height: auto;
+  z-index: 1;
+  margin-top: 152%;
+  margin-left: 80.5%;
+  opacity: 0%;
+  transition: all ease-in-out 400ms;
+  -webkit-transition: all ease-in-out 400ms;
+}
+
 
 /* <!--- ARTISTS --------------------------------------> */
 
-.adam_gif{
+#adam_gif{
   position: absolute;
   width: 100%;
   height: auto;
@@ -53,9 +401,10 @@ body{
   z-index: 6;
   margin-top: 219%;
   margin-left: 13%;
+  -webkit-transition: all ease 100ms;
 }
 
-.ben_gif{
+#ben_gif{
   position: absolute;
   width: 100%;
   height: auto;
@@ -71,9 +420,10 @@ body{
   z-index: 6;
   margin-top: 269%;
   margin-left: 59%;
+    -webkit-transition: all ease 100ms;
 }
 
-.casey_gif{
+#casey_gif{
   position: absolute;
   width: 100%;
   height: auto;
@@ -89,9 +439,10 @@ body{
   z-index: 6;
   margin-top: 319%;
   margin-left: 13%;
+    -webkit-transition: all ease 100ms;
 }
 
-.cosmo_gif{
+#cosmo_gif{
   position: absolute;
   width: 100%;
   height: auto;
@@ -107,9 +458,10 @@ body{
   z-index: 6;
   margin-top: 369%;
   margin-left: 63%;
+    -webkit-transition: all ease 100ms;
 }
 
-.jeremy_gif{
+#jeremy_gif{
   position: absolute;
   width: 100%;
   height: auto;
@@ -125,9 +477,10 @@ body{
   z-index: 6;
   margin-top: 419%;
   margin-left: 17%;
+    -webkit-transition: all ease 100ms;
 }
 
-.jiha_gif{
+#jiha_gif{
   position: absolute;
   width: 100%;
   height: auto;
@@ -143,9 +496,10 @@ body{
   z-index: 6;
   margin-top: 469%;
   margin-left: 63%;
+    -webkit-transition: all ease 100ms;
 }
 
-.kelly_gif{
+#kelly_gif{
   position: absolute;
   width: 100%;
   height: auto;
@@ -161,9 +515,10 @@ body{
   z-index: 6;
   margin-top: 519%;
   margin-left: 12%;
+    -webkit-transition: all ease 100ms;
 }
 
-.nydia_gif{
+#nydia_gif{
   position: absolute;
   width: 100%;
   height: auto;
@@ -179,9 +534,10 @@ body{
   z-index: 6;
   margin-top: 569%;
   margin-left: 65%;
+    -webkit-transition: all ease 100ms;
 }
 
-.sonya_gif{
+#sonya_gif{
   position: absolute;
   width: 100%;
   height: auto;
@@ -199,7 +555,7 @@ body{
   margin-left: 13%;
 }
 
-.tim_gif{
+#tim_gif{
   position: absolute;
   width: 100%;
   height: auto;
@@ -215,51 +571,64 @@ body{
   z-index: 6;
   margin-top: 669%;
   margin-left: 66%;
+    -webkit-transition: all ease 100ms;
 }
 
 .adam_name:hover{
-  transform: scale(1.1);
+  opacity: 50%;
+  transform: scale(1.05);
+  transition: all ease-in-out 100ms;
+  -webkit-transition: all ease 100ms;
 }
 
 .ben_name:hover{
-  transform: scale(1.1);
+  opacity: 50%;
+    -webkit-transition: all ease 100ms;
 }
 
 .casey_name:hover{
-  transform: scale(1.1);
+  opacity: 50%;
+    -webkit-transition: all ease 100ms;
 }
 
 .casey_name:hover{
-  transform: scale(1.1);
+  opacity: 50%;
+    -webkit-transition: all ease 100ms;
 }
 
 .cosmo_name:hover{
-  transform: scale(1.1);
+  opacity: 50%;
+    -webkit-transition: all ease 100ms;
 }
 
 .jeremy_name:hover{
-  transform: scale(1.1);
+  opacity: 50%;
+    -webkit-transition: all ease 100ms;
 }
 
 .jiha_name:hover{
-  transform: scale(1.1);
+  opacity: 50%;
+    -webkit-transition: all ease 100ms;
 }
 
 .kelly_name:hover{
-  transform: scale(1.1);
+  opacity: 50%;
+    -webkit-transition: all ease 100ms;
 }
 
 .nydia_name:hover{
-  transform: scale(1.1);
+  opacity: 50%;
+    -webkit-transition: all ease 100ms;
 }
 
 .sonya_name:hover{
-  transform: scale(1.1);
+  opacity: 50%;
+    -webkit-transition: all ease 100ms;
 }
 
 .tim_name:hover{
-  transform: scale(1.1);
   opacity: 50%;
+    -webkit-transition: all ease 100ms;
 }
 
 /* SCANS--------------------------------- */
@@ -283,7 +652,7 @@ body{
 
 /* <!-- CURATORS -------------------------------> */
 
-.curator_bg{
+#curator_bg{
   position: absolute;
   width: 100%;
   height: auto;
@@ -439,7 +808,7 @@ body{
 
 /* ESSAYS----------------------------------- */
 
-.essays_one{
+#essays_one{
   position: absolute;
   width: 100%;
   height: auto;
@@ -468,7 +837,7 @@ body{
 
 /* <!-- TIMELINE --------------------------------------> */
 
-.timeline{
+#timeline{
   position: absolute;
   width: 48%;
   height: auto;
